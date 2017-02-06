@@ -1,0 +1,66 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <ul class="nav">
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="sample.html">ABOUT</a></li>
+            <li><a href="resource.html">ABOUT</a></li>
+            <img src="../images/teuteurlogo.png" style="height: 30px;margin:auto;" alt="" />
+            <a id="tweetbutton" href="#" class="btn btn-primary">Tweet</a>
+        </ul>
+
+    </div>
+</nav>
+
+<div class="container" id="main">
+
+    <div class="row">
+        <div class="col-xs-3">
+            <div id="profile">
+                <ul class="nav nav-tabs nav-stacked">
+                    <li class="active">
+                        <a href="#">
+                            <div style="height:250px;">
+                                <img src="../images/Ryhad.jpg" id="profilepic" class="img-rounded" alt="profile_img" />
+                                <b>Mr.Ryhad</b>
+                                <small class="metadata">View my profile page</small>
+                                <div id="followdiv">
+                                    <ul class="nav nav-tabs nav-stacked">
+                                        <li>
+                                            <b>0</b>
+                                            <small>TWEETS</small>
+                                        </li>
+                                        <li>
+                                            <b>2</b>
+                                            <small>FOLLOWING</small>
+                                        </li>
+                                        <li>
+                                            <b>1</b>
+                                            <small>FOLLOWER</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+
+
+        </div>
+        <div class="col-xs-6">
+            <div id="trend">
+                <div ng-controller="personController">
+                    <blockquote class="twitter-tweet" ng-repeat="tweet in tweets">
+                        <div style="height:80px;"> <img ng-src="{{ tweet.photo }}" style="height:60px; width:60px; display: inline-block; border-radius:20%;" />
+                            <strong>{{ tweet.firstName }}</strong> {{ tweet.pseudo }}</div>
+                        <p>{{ tweet.date }}</p>
+                        <p>{{ tweet.tweet }}</p>
+                        <p>{{ tweet.likes }}</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

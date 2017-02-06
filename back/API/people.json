@@ -1,0 +1,25 @@
+[{
+        "photo": "JCVD.jpg",
+        "firstName": "JC",
+        "pseudo": "@JCVDOfficial",
+        "date": "11/22/63",
+        "tweet": "Reporter found dead in my garden. Authorities aren't aware of the situation yet.",
+        "likes": 20
+    },
+    {
+       "photo": "http://img1.closermag.fr/var/closermag/storage/images/bio-people/biographie-jean-claude-van-damme-112549/821773-1-fre-FR/Jean-Claude-Van-Damme_square500x500.jpg",
+        "firstName": "Bruce",
+        "pseudo": "@Batman",
+        "date": "11/22/63",
+        "tweet": "Playboy, Reporter found dead in my garden. Authorities aren't aware of the situation yet.",
+        "likes": 30
+    },
+    {
+       "photo": "http://img1.closermag.fr/var/closermag/storage/images/bio-people/biographie-jean-claude-van-damme-112549/821773-1-fre-FR/Jean-Claude-Van-Damme_square500x500.jpg",
+        "firstName": "Peter",
+        "pseudo": "@SpiderMan",
+        "date": "11/22/63",
+        "tweet": "Photographer, Reporter found dead in my garden. Authorities aren't aware of the situation yet.",
+        "likes": 40
+    }
+]

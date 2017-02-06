@@ -1,0 +1,39 @@
+body {
+  background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+  height: 1600px;
+  background-repeat: repeat;
+  padding-top: 70px;
+}
+
+ul {
+  display: flex;
+}
+
+.row div{
+  border-radius: 1%;
+  border-collapse: collapse;
+}
+
+#tweetbutton {
+  position: absolute;
+  right: 60px;
+  top: 6px;
+}
+
+#profilepic {
+  height: 50px;
+}
+
+#followdiv {
+  height: auto;
+  position: absolute;;
+  bottom: 11px;
+}
+
+#trend{
+  height:800px;
+}
+
+#tweetcontainer {
+  right: 0;
+}
